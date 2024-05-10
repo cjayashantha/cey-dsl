@@ -1,0 +1,2 @@
+include 'com.hcjds.dsl'
+include 'com.hcjds.dsl.ide'

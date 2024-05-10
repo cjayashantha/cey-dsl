@@ -1,0 +1,9 @@
+grammar com.hcjds.dsl.Cey with org.eclipse.xtext.common.Terminals
+
+generate cey "http://www.hcjds.com/dsl/Cey"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';
